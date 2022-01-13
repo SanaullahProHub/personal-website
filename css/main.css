@@ -2,12 +2,12 @@
 
 
 /* Custom Variables */
-:root{
+:root {
     /* Colors Set */
-    --color1st:#805018;
-    --color2nd:#053225;
-    --color3rd:#ffffb3;
-    --white-color:#fff;
+    --color1st: #805018;
+    --color2nd: #053225;
+    --color3rd: #ffffb3;
+    --white-color: #fff;
 
     /* Heading Font & Size */
     --heading-font: 'Lora', serif;
@@ -28,14 +28,14 @@
 
 *,
 ::after,
-::before{
+::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-body{
+body {
     font-family: var(--regular-font);
     font-weight: 400;
     line-height: 1.40;
@@ -50,6 +50,33 @@ h6 {
     font-family: var(--heading-font);
 }
 
-img{
+img {
     width: 100%;
 }
+
+.btn-clr1 {
+    background-color: var(--color1st);
+}
+
+.btn-clr2 {
+    background-color: var(--color2nd);
+}
+
+.btn-clr3 {
+    background-color: var(--color3rd);
+}
+
+.color1 {
+    background-color: var(--color1st);
+}
+
+.color2 {
+    background-color: var(--color2nd);
+}
+
+.color3 {
+    background-color: var(--color3rd);
+}
+
+
+/* Header Style */
