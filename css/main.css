@@ -3,7 +3,53 @@
 
 /* Custom Variables */
 :root{
+    /* Colors Set */
     --color1st:#805018;
     --color2nd:#053225;
     --color3rd:#ffffb3;
+    --white-color:#fff;
+
+    /* Heading Font & Size */
+    --heading-font: 'Lora', serif;
+    --hero-font-size: 3.583rem;
+    --h1-font-size: 2.986rem;
+    --h2-font-size: 2.488rem;
+    --h3-font-size: 2.074rem;
+    --h4-font-size: 1.728rem;
+    --h5-font-size: 1.44rem;
+    --h6-font-size: 1.2rem;
+
+    /* Regular Font Size */
+    --regular-font: 'Quicksand', sans-serif;
+    --regular-font-size: 1rem;
+    --small-font-size: 0.833rem;
+    --extra-font-size: 0.694rem;
+}
+
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--regular-font);
+    font-weight: 400;
+    line-height: 1.40;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+img{
+    width: 100%;
 }
