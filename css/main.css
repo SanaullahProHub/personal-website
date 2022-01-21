@@ -7,7 +7,9 @@
     --color1st: #805018;
     --color2nd: #053225;
     --color3rd: #ffffb3;
+    --color1st-shade: #B7850B;
     --white-color: #fff;
+    --black-color: #000;
 
     /* Heading Font & Size */
     --heading-font: 'Lora', serif;
@@ -20,7 +22,7 @@
     --h6-font-size: 1.2rem;
 
     /* Regular Font Size */
-    --regular-font: 'Quicksand', sans-serif;
+    --regular-font-family: 'Quicksand', sans-serif;
     --regular-font-size: 1rem;
     --small-font-size: 0.833rem;
     --extra-font-size: 0.694rem;
@@ -79,4 +81,37 @@ img {
 }
 
 
+.section{
+    padding: 40px 0;
+}
+
 /* Header Style */
+
+header{
+    background-color: var(--white-color));
+    height: 80px;
+}
+
+
+/* Banner Section */
+.banner{
+}
+
+.banner-content{
+    align-items: center;
+}
+
+.banner-text{
+    font-family:var(--heading-font);
+    padding-right: 40px;
+}
+
+.banner-text h1{
+    font-size: var(--hero-font-size);
+    font-weight: bold;
+}
+
+.banner-text span{
+    color: var(--color1st-shade);
+    margin: 20px 0;
+}
